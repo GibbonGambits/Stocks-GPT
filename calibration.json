@@ -1,0 +1,25 @@
+{
+  "updated": "2026-07-15T01:55:00-07:00",
+  "model": "gpt-5",
+  "bands": {
+    "90-100": {"n": 0, "hit_rate": null, "source": "none"},
+    "80-89": {"n": 0, "hit_rate": null, "source": "none"},
+    "70-79": {"n": 0, "hit_rate": null, "source": "none"},
+    "60-69": {"n": 0, "hit_rate": null, "source": "none"},
+    "50-59": {"n": 0, "hit_rate": null, "source": "none"},
+    "40-49": {"n": 0, "hit_rate": null, "source": "none"},
+    "30-39": {"n": 0, "hit_rate": null, "source": "none"},
+    "20-29": {"n": 0, "hit_rate": null, "source": "none"},
+    "10-19": {"n": 0, "hit_rate": null, "source": "none"},
+    "0-9": {"n": 0, "hit_rate": null, "source": "none"}
+  },
+  "factors": {
+    "drop_type": {},
+    "cause": {},
+    "intraday_state": {}
+  },
+  "notes": [
+    "No graded samples were available, so no calibration adjustment was applied.",
+    "Drawdown comparison is unavailable until predictions have been graded."
+  ]
+}
