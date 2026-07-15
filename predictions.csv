@@ -1,3 +1,15 @@
 run_date,run_time,model,ticker,rebound_pct,ref_price,status,graded_date,max_pct_2td,hit,peak_day,min_pct_2td,drop_pct,sector,drop_type,cause,intraday_state,vol_signature,earnings_soon,corr_group
 2026-07-15,01:55,gpt-5,MSCI,92,557.63,pending,,,,,,-8.80,Financial,company,other,new-lows,light,0,thin-premarket
 2026-07-15,01:55,gpt-5,NWSA,84,26.24,pending,,,,,,-4.93,Communication Services,company,other,new-lows,light,0,thin-premarket
+2026-07-15,08:16,gpt-5,SNDK,72,1547.15,pending,,,,,,-11.98,Technology,sympathy,sympathy,off-lows,heavy,0,ai-hardware
+2026-07-15,08:16,gpt-5,DELL,67,408.37,pending,,,,,,-10.75,Technology,sympathy,sympathy,off-lows,heavy,0,ai-hardware
+2026-07-15,08:16,gpt-5,WDC,64,517.49,pending,,,,,,-8.14,Technology,sympathy,sympathy,off-lows,normal,0,ai-hardware
+2026-07-15,08:16,gpt-5,STX,63,808.16,pending,,,,,,-7.99,Technology,sympathy,sympathy,off-lows,normal,0,ai-hardware
+2026-07-15,08:16,gpt-5,MRVL,61,209.00,pending,,,,,,-6.04,Technology,sympathy,sympathy,off-lows,normal,0,ai-hardware
+2026-07-15,08:16,gpt-5,GLW,59,173.07,pending,,,,,,-7.77,Technology,sympathy,sympathy,off-lows,normal,0,ai-hardware
+2026-07-15,08:16,gpt-5,PGR,57,211.65,pending,,,,,,-6.59,Financial,company,earnings,near-high,heavy,1,
+2026-07-15,08:16,gpt-5,ELV,52,386.83,pending,,,,,,-9.36,Healthcare,company,earnings,off-lows,heavy,1,
+2026-07-15,08:16,gpt-5,LITE,48,752.86,pending,,,,,,-7.60,Technology,sympathy,sympathy,off-lows,normal,0,ai-hardware
+2026-07-15,08:16,gpt-5,MU,46,906.17,pending,,,,,,-7.83,Technology,mixed,other,new-lows,normal,0,ai-hardware
+2026-07-15,08:16,gpt-5,NTAP,42,160.87,pending,,,,,,-7.84,Technology,sympathy,sympathy,new-lows,normal,0,ai-hardware
+2026-07-15,08:16,gpt-5,CIEN,38,417.76,pending,,,,,,-6.53,Technology,sympathy,sympathy,new-lows,normal,0,ai-hardware
