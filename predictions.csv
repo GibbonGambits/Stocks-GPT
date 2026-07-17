@@ -25,3 +25,15 @@ run_date,run_time,model,ticker,rebound_pct,ref_price,status,graded_date,max_pct_
 2026-07-16,08:09,gpt-5,CIEN,44,396.42,pending,,,,,,-5.27,Technology,sympathy,sympathy,off-lows,normal,0,ai-hardware
 2026-07-16,08:09,gpt-5,SMCI,42,25.52,pending,,,,,,-5.10,Technology,mixed,sympathy,new-lows,normal,0,ai-hardware
 2026-07-16,08:09,gpt-5,NBIS,39,181.91,pending,,,,,,-8.82,Technology,mixed,other,new-lows,normal,0,neocloud-risk
+2026-07-17,08:04,gpt-5,CDNS,72,327.74,pending,,,,,,-10.12,Technology,sympathy,sympathy,off-lows,heavy,0,eda-unwind
+2026-07-17,08:04,gpt-5,SNPS,67,376.30,pending,,,,,,-9.77,Technology,sympathy,sympathy,off-lows,heavy,0,eda-unwind
+2026-07-17,08:04,gpt-5,AMAT,65,533.13,pending,,,,,,-4.96,Technology,sympathy,sympathy,near-high,normal,0,chip-rout
+2026-07-17,08:04,gpt-5,NFLX,62,68.26,pending,,,,,,-8.19,Communication Services,company,guidance,near-high,heavy,1,
+2026-07-17,08:04,gpt-5,KLAC,60,209.60,pending,,,,,,-4.46,Technology,sympathy,sympathy,off-lows,normal,0,chip-rout
+2026-07-17,08:04,gpt-5,ALAB,57,297.39,pending,,,,,,-6.99,Technology,sympathy,sympathy,off-lows,normal,0,chip-rout
+2026-07-17,08:04,gpt-5,INTC,54,93.04,pending,,,,,,-4.07,Technology,sympathy,sympathy,off-lows,heavy,0,chip-rout
+2026-07-17,08:04,gpt-5,HOOD,51,100.16,pending,,,,,,-5.52,Financial,macro,macro,off-lows,heavy,0,momentum-unwind
+2026-07-17,08:04,gpt-5,APP,48,416.30,pending,,,,,,-4.18,Communication Services,mixed,other,off-lows,normal,0,momentum-unwind
+2026-07-17,08:04,gpt-5,META,44,626.89,pending,,,,,,-5.67,Communication Services,mixed,balance-sheet,new-lows,normal,0,ai-capex
+2026-07-17,08:04,gpt-5,AXON,41,517.36,pending,,,,,,-4.50,Industrials,macro,macro,new-lows,normal,0,momentum-unwind
+2026-07-17,08:04,gpt-5,SPCX,32,123.95,pending,,,,,,-5.46,Industrials,company,product,off-lows,normal,0,
