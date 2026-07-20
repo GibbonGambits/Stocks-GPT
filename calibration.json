@@ -1,14 +1,14 @@
 {
-  "updated": "2026-07-17T08:04:00-07:00",
+  "updated": "2026-07-20T08:09:00-07:00",
   "model": "gpt-5",
   "bands": {
-    "90-100": {"n": 0, "hit_rate": null, "source": "none"},
-    "80-89": {"n": 0, "hit_rate": null, "source": "none"},
-    "70-79": {"n": 0, "hit_rate": null, "source": "none"},
-    "60-69": {"n": 0, "hit_rate": null, "source": "none"},
-    "50-59": {"n": 0, "hit_rate": null, "source": "none"},
-    "40-49": {"n": 0, "hit_rate": null, "source": "none"},
-    "30-39": {"n": 0, "hit_rate": null, "source": "none"},
+    "90-100": {"n": 1, "hit_rate": 1.0, "source": "all-model pooled fallback"},
+    "80-89": {"n": 1, "hit_rate": 1.0, "source": "all-model pooled fallback"},
+    "70-79": {"n": 1, "hit_rate": 0.0, "source": "all-model pooled fallback"},
+    "60-69": {"n": 4, "hit_rate": 0.0, "source": "all-model pooled fallback"},
+    "50-59": {"n": 3, "hit_rate": 0.0, "source": "all-model pooled fallback"},
+    "40-49": {"n": 3, "hit_rate": 0.0, "source": "all-model pooled fallback"},
+    "30-39": {"n": 1, "hit_rate": 0.0, "source": "all-model pooled fallback"},
     "20-29": {"n": 0, "hit_rate": null, "source": "none"},
     "10-19": {"n": 0, "hit_rate": null, "source": "none"},
     "0-9": {"n": 0, "hit_rate": null, "source": "none"}
@@ -19,7 +19,8 @@
     "intraday_state": {}
   },
   "notes": [
-    "No graded samples were available, so no calibration adjustment was applied.",
-    "Drawdown comparison is unavailable until predictions have been graded."
+    "Every populated band used the all-model pooled fallback because each had fewer than 10 same-model samples; no band adjustment was applied because no band had at least 10 samples.",
+    "No factor value reached the 10-sample minimum, so no factor adjustment was applied.",
+    "Median min_pct_2td was 9.49% for hits and -13.45% for misses."
   ]
 }
