@@ -1,26 +1,33 @@
 {
-  "updated": "2026-07-20T08:09:00-07:00",
+  "updated": "2026-07-21T08:06:00-07:00",
   "model": "gpt-5",
   "bands": {
     "90-100": {"n": 1, "hit_rate": 1.0, "source": "all-model pooled fallback"},
     "80-89": {"n": 1, "hit_rate": 1.0, "source": "all-model pooled fallback"},
     "70-79": {"n": 1, "hit_rate": 0.0, "source": "all-model pooled fallback"},
-    "60-69": {"n": 4, "hit_rate": 0.0, "source": "all-model pooled fallback"},
-    "50-59": {"n": 3, "hit_rate": 0.0, "source": "all-model pooled fallback"},
-    "40-49": {"n": 3, "hit_rate": 0.0, "source": "all-model pooled fallback"},
-    "30-39": {"n": 1, "hit_rate": 0.0, "source": "all-model pooled fallback"},
+    "60-69": {"n": 7, "hit_rate": 0.2857, "source": "all-model pooled fallback"},
+    "50-59": {"n": 7, "hit_rate": 0.4286, "source": "all-model pooled fallback"},
+    "40-49": {"n": 7, "hit_rate": 0.2857, "source": "all-model pooled fallback"},
+    "30-39": {"n": 2, "hit_rate": 0.5, "source": "all-model pooled fallback"},
     "20-29": {"n": 0, "hit_rate": null, "source": "none"},
     "10-19": {"n": 0, "hit_rate": null, "source": "none"},
     "0-9": {"n": 0, "hit_rate": null, "source": "none"}
   },
   "factors": {
-    "drop_type": {},
-    "cause": {},
-    "intraday_state": {}
+    "drop_type": {
+      "sympathy": {"n": 18, "hit_rate": 0.3333}
+    },
+    "cause": {
+      "sympathy": {"n": 19, "hit_rate": 0.3158}
+    },
+    "intraday_state": {
+      "new-lows": {"n": 10, "hit_rate": 0.6},
+      "off-lows": {"n": 15, "hit_rate": 0.2667}
+    }
   },
   "notes": [
     "Every populated band used the all-model pooled fallback because each had fewer than 10 same-model samples; no band adjustment was applied because no band had at least 10 samples.",
-    "No factor value reached the 10-sample minimum, so no factor adjustment was applied.",
-    "Median min_pct_2td was 9.49% for hits and -13.45% for misses."
+    "Eligible factor rates were sympathy drop_type 33.33%, sympathy cause 31.58%, new-lows 60.00%, and off-lows 26.67%; applicable intraday factors were used only as secondary evidence.",
+    "Median min_pct_2td was -7.83% for hits and -11.18% for misses."
   ]
 }
