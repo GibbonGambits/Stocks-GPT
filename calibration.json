@@ -1,13 +1,13 @@
 {
-  "updated": "2026-07-23T08:00:00-07:00",
+  "updated": "2026-07-24T08:12:00-07:00",
   "model": "gpt-5",
   "bands": {
     "90-100": {"n": 1, "hit_rate": 1.0, "source": "all-model pooled fallback"},
     "80-89": {"n": 1, "hit_rate": 1.0, "source": "all-model pooled fallback"},
     "70-79": {"n": 2, "hit_rate": 0.5, "source": "all-model pooled fallback"},
-    "60-69": {"n": 11, "hit_rate": 0.4545, "source": "same-model"},
-    "50-59": {"n": 10, "hit_rate": 0.6, "source": "same-model"},
-    "40-49": {"n": 11, "hit_rate": 0.5455, "source": "same-model"},
+    "60-69": {"n": 12, "hit_rate": 0.5, "source": "same-model"},
+    "50-59": {"n": 12, "hit_rate": 0.6667, "source": "same-model"},
+    "40-49": {"n": 12, "hit_rate": 0.5, "source": "same-model"},
     "30-39": {"n": 3, "hit_rate": 0.6667, "source": "all-model pooled fallback"},
     "20-29": {"n": 0, "hit_rate": null, "source": "none"},
     "10-19": {"n": 0, "hit_rate": null, "source": "none"},
@@ -15,6 +15,7 @@
   },
   "factors": {
     "drop_type": {
+      "company": {"n": 10, "hit_rate": 0.7},
       "sympathy": {"n": 24, "hit_rate": 0.5}
     },
     "cause": {
@@ -22,12 +23,12 @@
     },
     "intraday_state": {
       "new-lows": {"n": 12, "hit_rate": 0.6667},
-      "off-lows": {"n": 24, "hit_rate": 0.5417}
+      "off-lows": {"n": 26, "hit_rate": 0.5385}
     }
   },
   "notes": [
-    "The 60-69 same-model band has realized a 45.45% hit rate, so estimates in that band were nudged downward; the 50-59 and 40-49 bands realized 60.00% and 54.55% and were nudged toward those rates.",
-    "Eligible factor rates were sympathy drop_type 50.00%, sympathy cause 48.00%, new-lows 66.67%, and off-lows 54.17%; factors were used only as secondary evidence.",
-    "Median min_pct_2td was -1.73% for hits and -11.10% for misses."
+    "The 60-69 same-model band has realized a 50.00% hit rate, so estimates in that band were nudged downward; the 50-59 band realized 66.67% and was nudged upward, while the 40-49 band realized 50.00%.",
+    "Eligible factor rates were company drop_type 70.00%, sympathy drop_type 50.00%, sympathy cause 48.00%, new-lows 66.67%, and off-lows 53.85%; factors were used only as secondary evidence.",
+    "Median min_pct_2td was -1.55% for hits and -10.79% for misses."
   ]
 }
