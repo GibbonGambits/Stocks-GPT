@@ -107,3 +107,15 @@ run_date,run_time,model,ticker,rebound_pct,ref_price,status,graded_date,max_pct_
 2026-07-29,08:16,gpt-5,SNDK,46,1027.91,pending,,,,,,-6.22,Technology,sympathy,sympathy,off-lows,heavy,0,ai-selloff
 2026-07-29,08:16,gpt-5,COHR,43,228.97,pending,,,,,,-5.90,Technology,sympathy,sympathy,off-lows,normal,0,ai-selloff
 2026-07-29,08:16,gpt-5,LITE,41,612.43,pending,,,,,,-6.06,Technology,sympathy,sympathy,off-lows,normal,0,ai-selloff
+2026-07-29,08:22,gpt-5,FLEX,63,103.98,pending,,,,,,-8.21,Technology,company,earnings,off-lows,heavy,1,
+2026-07-29,08:22,gpt-5,VRT,61,231.74,pending,,,,,,-14.03,Industrials,company,earnings,off-lows,heavy,1,
+2026-07-29,08:22,gpt-5,BG,59,108.01,pending,,,,,,-7.97,Consumer Defensive,mixed,earnings,off-lows,heavy,1,
+2026-07-29,08:22,gpt-5,MAS,58,72.59,pending,,,,,,-11.05,Industrials,company,earnings,off-lows,heavy,1,
+2026-07-29,08:22,gpt-5,KLAC,56,176.96,pending,,,,,,-7.25,Technology,company,guidance,off-lows,heavy,1,
+2026-07-29,08:22,gpt-5,NXPI,55,242.92,pending,,,,,,-6.25,Technology,company,earnings,new-lows,heavy,1,
+2026-07-29,08:22,gpt-5,SW,54,47.50,pending,,,,,,-6.50,Consumer Cyclical,company,earnings,off-lows,heavy,1,
+2026-07-29,08:22,gpt-5,CAT,51,787.88,pending,,,,,,-6.30,Industrials,company,legal,off-lows,heavy,0,
+2026-07-29,08:22,gpt-5,CRWV,46,61.91,pending,,,,,,-8.01,Technology,company,balance-sheet,new-lows,heavy,0,ai-financing
+2026-07-29,08:22,gpt-5,SNDK,45,1028.23,pending,,,,,,-6.19,Technology,sympathy,sympathy,off-lows,heavy,0,ai-selloff
+2026-07-29,08:22,gpt-5,COHR,42,226.25,pending,,,,,,-7.02,Technology,sympathy,sympathy,new-lows,heavy,0,ai-selloff
+2026-07-29,08:22,gpt-5,LITE,39,603.50,pending,,,,,,-7.43,Technology,sympathy,sympathy,new-lows,heavy,0,ai-selloff
