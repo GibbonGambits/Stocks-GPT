@@ -1,13 +1,13 @@
 {
-  "updated": "2026-07-29T08:22:00-07:00",
+  "updated": "2026-07-30T07:58:00-07:00",
   "model": "gpt-5",
   "bands": {
     "90-100": {"n": 1, "hit_rate": 1.0, "source": "all-model pooled fallback"},
     "80-89": {"n": 1, "hit_rate": 1.0, "source": "all-model pooled fallback"},
     "70-79": {"n": 2, "hit_rate": 0.5, "source": "all-model pooled fallback"},
     "60-69": {"n": 13, "hit_rate": 0.5385, "source": "same-model"},
-    "50-59": {"n": 30, "hit_rate": 0.5, "source": "same-model"},
-    "40-49": {"n": 22, "hit_rate": 0.5, "source": "same-model"},
+    "50-59": {"n": 36, "hit_rate": 0.4167, "source": "same-model"},
+    "40-49": {"n": 28, "hit_rate": 0.4286, "source": "same-model"},
     "30-39": {"n": 3, "hit_rate": 0.6667, "source": "all-model pooled fallback"},
     "20-29": {"n": 0, "hit_rate": null, "source": "none"},
     "10-19": {"n": 0, "hit_rate": null, "source": "none"},
@@ -15,21 +15,21 @@
   },
   "factors": {
     "drop_type": {
-      "company": {"n": 19, "hit_rate": 0.6316},
-      "mixed": {"n": 13, "hit_rate": 0.6154},
-      "sympathy": {"n": 35, "hit_rate": 0.3714}
+      "company": {"n": 21, "hit_rate": 0.5714},
+      "mixed": {"n": 14, "hit_rate": 0.5714},
+      "sympathy": {"n": 44, "hit_rate": 0.3182}
     },
     "cause": {
-      "sympathy": {"n": 38, "hit_rate": 0.3684}
+      "sympathy": {"n": 48, "hit_rate": 0.3125}
     },
     "intraday_state": {
       "new-lows": {"n": 21, "hit_rate": 0.7143},
-      "off-lows": {"n": 44, "hit_rate": 0.4545}
+      "off-lows": {"n": 56, "hit_rate": 0.375}
     }
   },
   "notes": [
-    "The 60-69, 50-59, and 40-49 same-model bands realized 53.85%, 50.00%, and 50.00%, so estimates were nudged toward those observed rates.",
-    "Eligible factor rates were company drop_type 63.16%, mixed drop_type 61.54%, sympathy drop_type 37.14%, sympathy cause 36.84%, new-lows 71.43%, and off-lows 45.45%; factors were used only as secondary evidence.",
-    "Median min_pct_2td was -0.97% for hits and -11.18% for misses."
+    "The 60-69, 50-59, and 40-49 same-model bands realized 53.85%, 41.67%, and 42.86%, so estimates were nudged toward those observed rates.",
+    "Eligible factor rates were company drop_type 57.14%, mixed drop_type 57.14%, sympathy drop_type 31.82%, sympathy cause 31.25%, new-lows 71.43%, and off-lows 37.50%; factors were used only as secondary evidence.",
+    "Median min_pct_2td was -1.28% for hits and -12.17% for misses."
   ]
 }
