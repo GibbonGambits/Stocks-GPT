@@ -83,18 +83,18 @@ run_date,run_time,model,ticker,rebound_pct,ref_price,status,graded_date,max_pct_
 2026-07-27,08:12,gpt-5,CIEN,44,370.15,graded,2026-07-30,-3.43,0,1,-12.66,-5.32,Technology,sympathy,sympathy,off-lows,normal,0,ai-optics
 2026-07-27,08:12,gpt-5,TER,42,329.46,graded,2026-07-30,12.98,1,2,-8.64,-5.85,Technology,sympathy,sympathy,off-lows,normal,1,china-duv
 2026-07-27,08:12,gpt-5,STX,40,807.65,graded,2026-07-30,0.91,0,2,-13.45,-5.17,Technology,mixed,sympathy,off-lows,heavy,1,memory-storage
-2026-07-28,08:05,gpt-5,SNDK,58,1085.09,pending,,,,,,-15.11,Technology,mixed,sympathy,off-lows,heavy,0,memory-china
-2026-07-28,08:05,gpt-5,ALAB,56,254.61,pending,,,,,,-9.88,Technology,sympathy,sympathy,off-lows,normal,0,ai-hardware
-2026-07-28,08:05,gpt-5,DELL,54,374.41,pending,,,,,,-12.30,Technology,sympathy,sympathy,off-lows,heavy,0,ai-hardware
-2026-07-28,08:05,gpt-5,MU,53,812.00,pending,,,,,,-9.80,Technology,mixed,sympathy,off-lows,heavy,0,memory-china
-2026-07-28,08:05,gpt-5,COHR,51,235.42,pending,,,,,,-13.23,Technology,sympathy,sympathy,off-lows,heavy,0,ai-optics
-2026-07-28,08:05,gpt-5,WDC,50,434.45,pending,,,,,,-12.75,Technology,sympathy,sympathy,off-lows,heavy,0,memory-china
-2026-07-28,08:05,gpt-5,LITE,48,629.19,pending,,,,,,-11.63,Technology,sympathy,sympathy,off-lows,heavy,0,ai-optics
-2026-07-28,08:05,gpt-5,NBIS,47,165.75,pending,,,,,,-11.78,Technology,mixed,balance-sheet,off-lows,heavy,0,ai-financing
-2026-07-28,08:05,gpt-5,CIEN,45,337.81,pending,,,,,,-10.46,Technology,sympathy,sympathy,off-lows,heavy,0,ai-optics
-2026-07-28,08:05,gpt-5,FLEX,43,103.69,pending,,,,,,-10.67,Technology,mixed,sympathy,off-lows,heavy,1,ai-hardware
-2026-07-28,08:05,gpt-5,LRCX,41,263.80,pending,,,,,,-9.54,Technology,mixed,product,off-lows,heavy,1,china-duv
-2026-07-28,08:05,gpt-5,STX,38,721.00,pending,,,,,,-11.75,Technology,mixed,sympathy,off-lows,heavy,1,memory-china
+2026-07-28,08:05,gpt-5,SNDK,58,1085.09,graded,2026-07-31,18.47,1,2,-8.01,-15.11,Technology,mixed,sympathy,off-lows,heavy,0,memory-china
+2026-07-28,08:05,gpt-5,ALAB,56,254.61,graded,2026-07-31,17.87,1,2,-3.93,-9.88,Technology,sympathy,sympathy,off-lows,normal,0,ai-hardware
+2026-07-28,08:05,gpt-5,DELL,54,374.41,graded,2026-07-31,10.31,1,2,-2.73,-12.30,Technology,sympathy,sympathy,off-lows,heavy,0,ai-hardware
+2026-07-28,08:05,gpt-5,MU,53,812.00,graded,2026-07-31,8.68,1,2,-9.13,-9.80,Technology,mixed,sympathy,off-lows,heavy,0,memory-china
+2026-07-28,08:05,gpt-5,COHR,51,235.42,graded,2026-07-31,6.44,1,2,-6.26,-13.23,Technology,sympathy,sympathy,off-lows,heavy,0,ai-optics
+2026-07-28,08:05,gpt-5,WDC,50,434.45,graded,2026-07-31,25.92,1,2,5.13,-12.75,Technology,sympathy,sympathy,off-lows,heavy,0,memory-china
+2026-07-28,08:05,gpt-5,LITE,48,629.19,graded,2026-07-31,10.98,1,2,-5.46,-11.63,Technology,sympathy,sympathy,off-lows,heavy,0,ai-optics
+2026-07-28,08:05,gpt-5,NBIS,47,165.75,graded,2026-07-31,18.18,1,2,-12.04,-11.78,Technology,mixed,balance-sheet,off-lows,heavy,0,ai-financing
+2026-07-28,08:05,gpt-5,CIEN,45,337.81,graded,2026-07-31,10.44,1,2,-4.30,-10.46,Technology,sympathy,sympathy,off-lows,heavy,0,ai-optics
+2026-07-28,08:05,gpt-5,FLEX,43,103.69,graded,2026-07-31,8.33,1,2,-4.04,-10.67,Technology,mixed,sympathy,off-lows,heavy,1,ai-hardware
+2026-07-28,08:05,gpt-5,LRCX,41,263.80,graded,2026-07-31,21.11,1,2,-5.04,-9.54,Technology,mixed,product,off-lows,heavy,1,china-duv
+2026-07-28,08:05,gpt-5,STX,38,721.00,graded,2026-07-31,24.99,1,2,3.68,-11.75,Technology,mixed,sympathy,off-lows,heavy,1,memory-china
 2026-07-29,08:16,gpt-5,VRT,64,234.61,pending,,,,,,-12.97,Industrials,company,earnings,off-lows,heavy,1,
 2026-07-29,08:16,gpt-5,FLEX,62,105.47,pending,,,,,,-6.89,Technology,company,earnings,off-lows,heavy,1,
 2026-07-29,08:16,gpt-5,PPG,60,112.12,pending,,,,,,-5.79,Basic Materials,mixed,earnings,off-lows,heavy,0,
@@ -131,3 +131,15 @@ run_date,run_time,model,ticker,rebound_pct,ref_price,status,graded_date,max_pct_
 2026-07-30,07:58,gpt-5,HPQ,41,26.39,pending,,,,,,-7.13,Technology,macro,macro,off-lows,normal,0,
 2026-07-30,07:58,gpt-5,ACN,40,161.96,pending,,,,,,-6.47,Technology,sympathy,sympathy,off-lows,heavy,0,software-ai
 2026-07-30,07:58,gpt-5,IT,38,150.56,pending,,,,,,-9.11,Technology,sympathy,sympathy,off-lows,normal,1,software-ai
+2026-07-31,08:01,gpt-5,LIN,61,476.87,pending,,,,,,-6.25,Basic Materials,company,earnings,near-high,heavy,1,
+2026-07-31,08:01,gpt-5,SYK,59,320.79,pending,,,,,,-7.83,Healthcare,company,earnings,off-lows,heavy,1,
+2026-07-31,08:01,gpt-5,CTVA,57,80.12,pending,,,,,,-10.32,Basic Materials,company,earnings,off-lows,heavy,1,
+2026-07-31,08:01,gpt-5,LYV,55,172.61,pending,,,,,,-5.97,Communication Services,mixed,legal,off-lows,heavy,1,
+2026-07-31,08:01,gpt-5,GDDY,54,79.03,pending,,,,,,-20.44,Technology,mixed,guidance,near-high,heavy,1,
+2026-07-31,08:01,gpt-5,TROW,53,112.63,pending,,,,,,-5.58,Financial,company,earnings,off-lows,heavy,1,
+2026-07-31,08:01,gpt-5,EIX,52,74.85,pending,,,,,,-4.93,Utilities,mixed,earnings,off-lows,heavy,1,
+2026-07-31,08:01,gpt-5,AAPL,50,302.80,pending,,,,,,-9.19,Technology,mixed,guidance,off-lows,heavy,1,
+2026-07-31,08:01,gpt-5,COIN,47,140.70,pending,,,,,,-13.99,Financial,mixed,earnings,off-lows,heavy,1,crypto-risk
+2026-07-31,08:01,gpt-5,APP,44,385.62,pending,,,,,,-4.52,Communication Services,sympathy,macro,off-lows,heavy,1,growth-yields
+2026-07-31,08:01,gpt-5,SHOP,42,116.94,pending,,,,,,-4.46,Technology,sympathy,macro,new-lows,normal,1,growth-yields
+2026-07-31,08:01,gpt-5,MSTR,38,90.59,pending,,,,,,-7.32,Technology,mixed,balance-sheet,off-lows,heavy,1,crypto-risk
