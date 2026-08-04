@@ -1,36 +1,36 @@
 {
-  "updated": "2026-08-03T08:02:00-07:00",
+  "updated": "2026-08-04T08:03:00-07:00",
   "model": "gpt-5",
   "bands": {
     "90-100": {"n": 1, "hit_rate": 1.0, "source": "all-model pooled fallback"},
     "80-89": {"n": 1, "hit_rate": 1.0, "source": "all-model pooled fallback"},
     "70-79": {"n": 2, "hit_rate": 0.5, "source": "all-model pooled fallback"},
-    "60-69": {"n": 16, "hit_rate": 0.5625, "source": "same-model"},
-    "50-59": {"n": 49, "hit_rate": 0.5102, "source": "same-model"},
-    "40-49": {"n": 36, "hit_rate": 0.5556, "source": "same-model"},
-    "30-39": {"n": 5, "hit_rate": 0.8, "source": "all-model pooled fallback"},
+    "60-69": {"n": 17, "hit_rate": 0.5882, "source": "same-model"},
+    "50-59": {"n": 52, "hit_rate": 0.5192, "source": "same-model"},
+    "40-49": {"n": 43, "hit_rate": 0.6279, "source": "same-model"},
+    "30-39": {"n": 6, "hit_rate": 0.8333, "source": "all-model pooled fallback"},
     "20-29": {"n": 0, "hit_rate": null, "source": "none"},
     "10-19": {"n": 0, "hit_rate": null, "source": "none"},
     "0-9": {"n": 0, "hit_rate": null, "source": "none"}
   },
   "factors": {
     "drop_type": {
-      "company": {"n": 30, "hit_rate": 0.6333},
-      "mixed": {"n": 22, "hit_rate": 0.6364},
-      "sympathy": {"n": 53, "hit_rate": 0.434}
+      "company": {"n": 34, "hit_rate": 0.6471},
+      "mixed": {"n": 24, "hit_rate": 0.6667},
+      "sympathy": {"n": 58, "hit_rate": 0.4828}
     },
     "cause": {
-      "earnings": {"n": 16, "hit_rate": 0.375},
-      "sympathy": {"n": 61, "hit_rate": 0.459}
+      "earnings": {"n": 19, "hit_rate": 0.4211},
+      "sympathy": {"n": 66, "hit_rate": 0.5}
     },
     "intraday_state": {
-      "new-lows": {"n": 25, "hit_rate": 0.76},
-      "off-lows": {"n": 78, "hit_rate": 0.5}
+      "new-lows": {"n": 26, "hit_rate": 0.7692},
+      "off-lows": {"n": 87, "hit_rate": 0.5402}
     }
   },
   "notes": [
     "Same-model band rates with at least 10 samples were applied first; fallback bands use all-model pooled history.",
     "Eligible factor rates were used only as secondary evidence.",
-    "Median min_pct_2td was -1.55% for hits and -11.27% for misses."
+    "Median min_pct_2td was -1.35% for hits and -11.18% for misses."
   ]
 }
