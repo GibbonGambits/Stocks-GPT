@@ -131,18 +131,18 @@ run_date,run_time,model,ticker,rebound_pct,ref_price,status,graded_date,max_pct_
 2026-07-30,07:58,gpt-5,HPQ,41,26.39,graded,2026-08-04,6.03,1,2,-1.29,-7.13,Technology,macro,macro,off-lows,normal,0,
 2026-07-30,07:58,gpt-5,ACN,40,161.96,graded,2026-08-04,5.87,1,2,-1.70,-6.47,Technology,sympathy,sympathy,off-lows,heavy,0,software-ai
 2026-07-30,07:58,gpt-5,IT,38,150.56,graded,2026-08-04,3.93,1,2,-2.07,-9.11,Technology,sympathy,sympathy,off-lows,normal,1,software-ai
-2026-07-31,08:01,gpt-5,LIN,61,476.87,pending,,,,,,-6.25,Basic Materials,company,earnings,near-high,heavy,1,
-2026-07-31,08:01,gpt-5,SYK,59,320.79,pending,,,,,,-7.83,Healthcare,company,earnings,off-lows,heavy,1,
-2026-07-31,08:01,gpt-5,CTVA,57,80.12,pending,,,,,,-10.32,Basic Materials,company,earnings,off-lows,heavy,1,
-2026-07-31,08:01,gpt-5,LYV,55,172.61,pending,,,,,,-5.97,Communication Services,mixed,legal,off-lows,heavy,1,
-2026-07-31,08:01,gpt-5,GDDY,54,79.03,pending,,,,,,-20.44,Technology,mixed,guidance,near-high,heavy,1,
-2026-07-31,08:01,gpt-5,TROW,53,112.63,pending,,,,,,-5.58,Financial,company,earnings,off-lows,heavy,1,
-2026-07-31,08:01,gpt-5,EIX,52,74.85,pending,,,,,,-4.93,Utilities,mixed,earnings,off-lows,heavy,1,
-2026-07-31,08:01,gpt-5,AAPL,50,302.80,pending,,,,,,-9.19,Technology,mixed,guidance,off-lows,heavy,1,
-2026-07-31,08:01,gpt-5,COIN,47,140.70,pending,,,,,,-13.99,Financial,mixed,earnings,off-lows,heavy,1,crypto-risk
-2026-07-31,08:01,gpt-5,APP,44,385.62,pending,,,,,,-4.52,Communication Services,sympathy,macro,off-lows,heavy,1,growth-yields
-2026-07-31,08:01,gpt-5,SHOP,42,116.94,pending,,,,,,-4.46,Technology,sympathy,macro,new-lows,normal,1,growth-yields
-2026-07-31,08:01,gpt-5,MSTR,38,90.59,pending,,,,,,-7.32,Technology,mixed,balance-sheet,off-lows,heavy,1,crypto-risk
+2026-07-31,08:01,gpt-5,LIN,61,476.87,graded,2026-08-05,1.83,0,2,-0.10,-6.25,Basic Materials,company,earnings,near-high,heavy,1,
+2026-07-31,08:01,gpt-5,SYK,59,320.79,graded,2026-08-05,6.62,1,1,3.06,-7.83,Healthcare,company,earnings,off-lows,heavy,1,
+2026-07-31,08:01,gpt-5,CTVA,57,80.12,graded,2026-08-05,-2.07,0,1,-7.00,-10.32,Basic Materials,company,earnings,off-lows,heavy,1,
+2026-07-31,08:01,gpt-5,LYV,55,172.61,graded,2026-08-05,7.44,1,2,1.28,-5.97,Communication Services,mixed,legal,off-lows,heavy,1,
+2026-07-31,08:01,gpt-5,GDDY,54,79.03,graded,2026-08-05,13.96,1,1,5.21,-20.44,Technology,mixed,guidance,near-high,heavy,1,
+2026-07-31,08:01,gpt-5,TROW,53,112.63,graded,2026-08-05,3.12,1,2,-1.95,-5.58,Financial,company,earnings,off-lows,heavy,1,
+2026-07-31,08:01,gpt-5,EIX,52,74.85,graded,2026-08-05,-1.16,0,1,-5.69,-4.93,Utilities,mixed,earnings,off-lows,heavy,1,
+2026-07-31,08:01,gpt-5,AAPL,50,302.80,graded,2026-08-05,2.97,0,1,-0.49,-9.19,Technology,mixed,guidance,off-lows,heavy,1,
+2026-07-31,08:01,gpt-5,COIN,47,140.70,graded,2026-08-05,8.67,1,2,0.23,-13.99,Financial,mixed,earnings,off-lows,heavy,1,crypto-risk
+2026-07-31,08:01,gpt-5,APP,44,385.62,graded,2026-08-05,10.70,1,2,3.48,-4.52,Communication Services,sympathy,macro,off-lows,heavy,1,growth-yields
+2026-07-31,08:01,gpt-5,SHOP,42,116.94,graded,2026-08-05,5.78,1,2,-0.26,-4.46,Technology,sympathy,macro,new-lows,normal,1,growth-yields
+2026-07-31,08:01,gpt-5,MSTR,38,90.59,graded,2026-08-05,8.16,1,2,0.38,-7.32,Technology,mixed,balance-sheet,off-lows,heavy,1,crypto-risk
 2026-08-03,08:02,gpt-5,MPWR,59,1335.72,pending,,,,,,-6.33,Technology,sympathy,sympathy,off-lows,heavy,0,
 2026-08-03,08:02,gpt-5,MAR,57,347.79,pending,,,,,,-6.72,Consumer Cyclical,mixed,guidance,new-lows,heavy,1,
 2026-08-03,08:02,gpt-5,CBOE,55,296.27,pending,,,,,,-4.50,Financial,mixed,macro,new-lows,normal,0,
@@ -154,3 +154,15 @@ run_date,run_time,model,ticker,rebound_pct,ref_price,status,graded_date,max_pct_
 2026-08-04,08:03,gpt-5,FIS,57,42.25,pending,,,,,,-5.65,Technology,company,guidance,near-high,heavy,1,
 2026-08-04,08:03,gpt-5,VST,55,146.76,pending,,,,,,-5.89,Utilities,sympathy,sympathy,off-lows,heavy,1,power-earnings
 2026-08-04,08:03,gpt-5,NRG,52,123.72,pending,,,,,,-10.65,Utilities,company,earnings,new-lows,heavy,1,power-earnings
+2026-08-05,07:58,gpt-5,DVA,61,185.45,pending,,,,,,-18.66,Healthcare,company,earnings,off-lows,heavy,0,
+2026-08-05,07:58,gpt-5,CDW,60,135.49,pending,,,,,,-12.02,Technology,company,earnings,near-high,heavy,1,
+2026-08-05,07:58,gpt-5,ALAB,59,324.29,pending,,,,,,-10.34,Technology,company,earnings,off-lows,heavy,0,
+2026-08-05,07:58,gpt-5,EOG,58,136.67,pending,,,,,,-4.77,Energy,mixed,earnings,new-lows,heavy,0,
+2026-08-05,07:58,gpt-5,CVS,57,97.65,pending,,,,,,-6.48,Healthcare,company,guidance,near-high,heavy,1,
+2026-08-05,07:58,gpt-5,AMD,56,482.87,pending,,,,,,-6.89,Technology,mixed,product,off-lows,heavy,0,spacex-ai
+2026-08-05,07:58,gpt-5,CCI,54,70.56,pending,,,,,,-9.14,Real Estate,sympathy,sympathy,new-lows,heavy,0,tower-mobile
+2026-08-05,07:58,gpt-5,AMT,53,163.52,pending,,,,,,-6.69,Real Estate,sympathy,sympathy,new-lows,heavy,0,tower-mobile
+2026-08-05,07:58,gpt-5,SBAC,52,171.96,pending,,,,,,-8.49,Real Estate,sympathy,sympathy,new-lows,heavy,0,tower-mobile
+2026-08-05,07:58,gpt-5,SPCX,51,115.25,pending,,,,,,-8.04,Industrials,company,balance-sheet,near-high,heavy,0,spacex-ai
+2026-08-05,07:58,gpt-5,NI,50,42.33,pending,,,,,,-4.93,Utilities,company,earnings,off-lows,heavy,1,
+2026-08-05,07:58,gpt-5,UBER,49,67.75,pending,,,,,,-5.89,Technology,company,guidance,new-lows,heavy,1,

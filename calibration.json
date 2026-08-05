@@ -1,36 +1,109 @@
 {
-  "updated": "2026-08-04T08:03:00-07:00",
+  "updated": "2026-08-05T07:58:00-07:00",
   "model": "gpt-5",
   "bands": {
-    "90-100": {"n": 1, "hit_rate": 1.0, "source": "all-model pooled fallback"},
-    "80-89": {"n": 1, "hit_rate": 1.0, "source": "all-model pooled fallback"},
-    "70-79": {"n": 2, "hit_rate": 0.5, "source": "all-model pooled fallback"},
-    "60-69": {"n": 17, "hit_rate": 0.5882, "source": "same-model"},
-    "50-59": {"n": 52, "hit_rate": 0.5192, "source": "same-model"},
-    "40-49": {"n": 43, "hit_rate": 0.6279, "source": "same-model"},
-    "30-39": {"n": 6, "hit_rate": 0.8333, "source": "all-model pooled fallback"},
-    "20-29": {"n": 0, "hit_rate": null, "source": "none"},
-    "10-19": {"n": 0, "hit_rate": null, "source": "none"},
-    "0-9": {"n": 0, "hit_rate": null, "source": "none"}
+    "90-100": {
+      "n": 1,
+      "hit_rate": 1.0,
+      "source": "all-model pooled fallback"
+    },
+    "80-89": {
+      "n": 1,
+      "hit_rate": 1.0,
+      "source": "all-model pooled fallback"
+    },
+    "70-79": {
+      "n": 2,
+      "hit_rate": 0.5,
+      "source": "all-model pooled fallback"
+    },
+    "60-69": {
+      "n": 18,
+      "hit_rate": 0.5556,
+      "source": "same-model"
+    },
+    "50-59": {
+      "n": 59,
+      "hit_rate": 0.5254,
+      "source": "same-model"
+    },
+    "40-49": {
+      "n": 46,
+      "hit_rate": 0.6522,
+      "source": "same-model"
+    },
+    "30-39": {
+      "n": 7,
+      "hit_rate": 0.8571,
+      "source": "all-model pooled fallback"
+    },
+    "20-29": {
+      "n": 0,
+      "hit_rate": null,
+      "source": "none"
+    },
+    "10-19": {
+      "n": 0,
+      "hit_rate": null,
+      "source": "none"
+    },
+    "0-9": {
+      "n": 0,
+      "hit_rate": null,
+      "source": "none"
+    }
   },
   "factors": {
     "drop_type": {
-      "company": {"n": 34, "hit_rate": 0.6471},
-      "mixed": {"n": 24, "hit_rate": 0.6667},
-      "sympathy": {"n": 58, "hit_rate": 0.4828}
+      "company": {
+        "n": 38,
+        "hit_rate": 0.6316
+      },
+      "mixed": {
+        "n": 30,
+        "hit_rate": 0.6667
+      },
+      "sympathy": {
+        "n": 60,
+        "hit_rate": 0.5
+      }
     },
     "cause": {
-      "earnings": {"n": 19, "hit_rate": 0.4211},
-      "sympathy": {"n": 66, "hit_rate": 0.5}
+      "balance-sheet": {
+        "n": 10,
+        "hit_rate": 0.9
+      },
+      "earnings": {
+        "n": 25,
+        "hit_rate": 0.44
+      },
+      "guidance": {
+        "n": 11,
+        "hit_rate": 0.7273
+      },
+      "sympathy": {
+        "n": 66,
+        "hit_rate": 0.5
+      }
     },
     "intraday_state": {
-      "new-lows": {"n": 26, "hit_rate": 0.7692},
-      "off-lows": {"n": 87, "hit_rate": 0.5402}
+      "near-high": {
+        "n": 11,
+        "hit_rate": 0.5455
+      },
+      "new-lows": {
+        "n": 27,
+        "hit_rate": 0.7778
+      },
+      "off-lows": {
+        "n": 96,
+        "hit_rate": 0.5521
+      }
     }
   },
   "notes": [
     "Same-model band rates with at least 10 samples were applied first; fallback bands use all-model pooled history.",
     "Eligible factor rates were used only as secondary evidence.",
-    "Median min_pct_2td was -1.35% for hits and -11.18% for misses."
+    "Median min_pct_2td was -0.93% for hits and -10.41% for misses."
   ]
 }
