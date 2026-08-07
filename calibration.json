@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06T08:02:00-07:00",
+  "updated": "2026-08-07T07:58:00-07:00",
   "model": "gpt-5",
   "bands": {
     "90-100": {
@@ -18,13 +18,13 @@
       "source": "all-model pooled fallback"
     },
     "60-69": {
-      "n": 18,
-      "hit_rate": 0.5556,
+      "n": 20,
+      "hit_rate": 0.55,
       "source": "same-model"
     },
     "50-59": {
-      "n": 63,
-      "hit_rate": 0.5397,
+      "n": 67,
+      "hit_rate": 0.5224,
       "source": "same-model"
     },
     "40-49": {
@@ -56,16 +56,16 @@
   "factors": {
     "drop_type": {
       "company": {
-        "n": 40,
-        "hit_rate": 0.625
+        "n": 45,
+        "hit_rate": 0.6
       },
       "mixed": {
         "n": 32,
         "hit_rate": 0.6562
       },
       "sympathy": {
-        "n": 61,
-        "hit_rate": 0.5082
+        "n": 62,
+        "hit_rate": 0.5
       }
     },
     "cause": {
@@ -74,36 +74,36 @@
         "hit_rate": 0.9
       },
       "earnings": {
-        "n": 26,
-        "hit_rate": 0.4231
+        "n": 29,
+        "hit_rate": 0.4138
       },
       "guidance": {
-        "n": 12,
-        "hit_rate": 0.75
+        "n": 14,
+        "hit_rate": 0.7143
       },
       "sympathy": {
-        "n": 67,
-        "hit_rate": 0.5075
+        "n": 68,
+        "hit_rate": 0.5
       }
     },
     "intraday_state": {
       "near-high": {
-        "n": 11,
-        "hit_rate": 0.5455
+        "n": 14,
+        "hit_rate": 0.5714
       },
       "new-lows": {
-        "n": 30,
-        "hit_rate": 0.7667
+        "n": 31,
+        "hit_rate": 0.7419
       },
       "off-lows": {
-        "n": 98,
-        "hit_rate": 0.551
+        "n": 100,
+        "hit_rate": 0.54
       }
     }
   },
   "notes": [
     "Same-model band rates with at least 10 samples were applied first; fallback bands use all-model pooled history.",
     "Eligible factor rates were used only as secondary evidence.",
-    "Median min_pct_2td was -1.28% for hits and -10.11% for misses."
+    "Median min_pct_2td was -1.28% for hits and -8.91% for misses."
   ]
 }

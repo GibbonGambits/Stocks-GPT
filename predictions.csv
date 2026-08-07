@@ -148,12 +148,12 @@ run_date,run_time,model,ticker,rebound_pct,ref_price,status,graded_date,max_pct_
 2026-08-03,08:02,gpt-5,CBOE,55,296.27,graded,2026-08-06,0.03,0,1,-3.97,-4.50,Financial,mixed,macro,new-lows,normal,0,
 2026-08-03,08:02,gpt-5,EBAY,52,108.18,graded,2026-08-06,3.05,1,2,-2.01,-5.12,Consumer Cyclical,company,other,new-lows,heavy,1,
 2026-08-03,08:02,gpt-5,LVS,49,46.75,graded,2026-08-06,1.48,0,2,-2.12,-4.38,Consumer Cyclical,company,earnings,off-lows,normal,0,
-2026-08-04,08:03,gpt-5,ROK,63,449.27,pending,,,,,,-6.59,Industrials,company,earnings,near-high,heavy,1,
-2026-08-04,08:03,gpt-5,CMI,61,611.38,pending,,,,,,-5.78,Industrials,company,earnings,near-high,heavy,1,
-2026-08-04,08:03,gpt-5,APTV,59,48.55,pending,,,,,,-15.17,Consumer Cyclical,company,guidance,off-lows,heavy,1,
-2026-08-04,08:03,gpt-5,FIS,57,42.25,pending,,,,,,-5.65,Technology,company,guidance,near-high,heavy,1,
-2026-08-04,08:03,gpt-5,VST,55,146.76,pending,,,,,,-5.89,Utilities,sympathy,sympathy,off-lows,heavy,1,power-earnings
-2026-08-04,08:03,gpt-5,NRG,52,123.72,pending,,,,,,-10.65,Utilities,company,earnings,new-lows,heavy,1,power-earnings
+2026-08-04,08:03,gpt-5,ROK,63,449.27,graded,2026-08-07,2.49,0,1,-1.88,-6.59,Industrials,company,earnings,near-high,heavy,1,
+2026-08-04,08:03,gpt-5,CMI,61,611.38,graded,2026-08-07,8.12,1,1,4.27,-5.78,Industrials,company,earnings,near-high,heavy,1,
+2026-08-04,08:03,gpt-5,APTV,59,48.55,graded,2026-08-07,-0.66,0,2,-4.92,-15.17,Consumer Cyclical,company,guidance,off-lows,heavy,1,
+2026-08-04,08:03,gpt-5,FIS,57,42.25,graded,2026-08-07,5.21,1,1,-1.51,-5.65,Technology,company,guidance,near-high,heavy,1,
+2026-08-04,08:03,gpt-5,VST,55,146.76,graded,2026-08-07,-0.86,0,1,-4.51,-5.89,Utilities,sympathy,sympathy,off-lows,heavy,1,power-earnings
+2026-08-04,08:03,gpt-5,NRG,52,123.72,graded,2026-08-07,0.80,0,1,-4.80,-10.65,Utilities,company,earnings,new-lows,heavy,1,power-earnings
 2026-08-05,07:58,gpt-5,DVA,61,185.45,pending,,,,,,-18.66,Healthcare,company,earnings,off-lows,heavy,0,
 2026-08-05,07:58,gpt-5,CDW,60,135.49,pending,,,,,,-12.02,Technology,company,earnings,near-high,heavy,1,
 2026-08-05,07:58,gpt-5,ALAB,59,324.29,pending,,,,,,-10.34,Technology,company,earnings,off-lows,heavy,0,
@@ -177,3 +177,7 @@ run_date,run_time,model,ticker,rebound_pct,ref_price,status,graded_date,max_pct_
 2026-08-06,08:02,gpt-5,SOLV,52,83.85,pending,,,,,,-4.14,Healthcare,company,earnings,new-lows,normal,1,
 2026-08-06,08:02,gpt-5,BBY,49,80.87,pending,,,,,,-4.30,Consumer Cyclical,company,other,new-lows,normal,0,
 2026-08-06,08:02,gpt-5,CNC,47,64.12,pending,,,,,,-4.28,Healthcare,company,earnings,new-lows,normal,0,
+2026-08-07,07:58,gpt-5,RMD,61,213.96,pending,,,,,,-4.16,Healthcare,company,guidance,near-high,heavy,0,
+2026-08-07,07:58,gpt-5,AKAM,59,112.00,pending,,,,,,-5.53,Technology,company,guidance,off-lows,heavy,0,
+2026-08-07,07:58,gpt-5,WDC,56,429.85,pending,,,,,,-4.80,Technology,mixed,guidance,off-lows,heavy,0,storage-earnings
+2026-08-07,07:58,gpt-5,STX,54,791.95,pending,,,,,,-7.15,Technology,sympathy,sympathy,off-lows,heavy,0,storage-earnings
